@@ -4,17 +4,17 @@ A classic Tic-Tac-Toe (Noughts and Crosses) game developed using Python and the 
 
 # ✨ Features
 
-Graphical Interface: A simple and clean GUI for an engaging gameplay experience.
+   Graphical Interface: A simple and clean GUI for an engaging gameplay experience.
 
-Player Turns: Smooth alternation between players 'x' and 'o'.
+   Player Turns: Smooth alternation between players 'x' and 'o'.
 
-Win Detection: Automatically checks for all possible winning conditions (horizontal, vertical, and diagonal).
+   Win Detection: Automatically checks for all possible winning conditions (horizontal, vertical, and diagonal).
 
-Tie Handling: Accurately detects a tie game when all squares are filled without a winner.
+   Tie Handling: Accurately detects a tie game when all squares are filled without a winner.
 
-Random Start: A random player is selected to start each new game.
+   Random Start: A random player is selected to start each new game.
 
-Restart Button: Easily start a fresh game at any time.
+   Restart Button: Easily start a fresh game at any time.
 
 🛠️ Prerequisites
 
