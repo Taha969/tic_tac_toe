@@ -2,7 +2,6 @@ from glob import glob
 from tkinter import *
 import random
 
-
 def next_turn(row, col):
     global player
     if game_btns[row][col]['text'] == "" and check_winner() == False:
@@ -35,7 +34,6 @@ def next_turn(row, col):
 
             elif check_winner() == 'tie':
                 label.config(text=("Tie, No Winner!"))
-
 
 def check_winner():
     # check all 3 horizontal conditions
@@ -77,7 +75,6 @@ def check_winner():
     else:
         return False
 
-
 def check_empty_spaces():
     spaces = 9
 
@@ -91,7 +88,6 @@ def check_empty_spaces():
     else:
         return True
 
-
 def start_new_game():
     global player
     player = random.choice(players)
@@ -101,7 +97,6 @@ def start_new_game():
     for row in range(3):
         for col in range(3):
             game_btns[row][col].config(text="", bg="#3e8acc")#color blue
-
 
 window = Tk()
 window.title("Tic-Tac-Toe Korsat-X-Parmaga")
@@ -132,3 +127,4 @@ for row in range(3):
         game_btns[row][col].grid(row=row, column=col)
 
 window.mainloop()
+
