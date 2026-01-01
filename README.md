@@ -4,9 +4,9 @@ A classic Tic-Tac-Toe (Noughts and Crosses) game developed using Python and the 
 
 # ✨ Features
 
-   Graphical Interface: A simple and clean GUI for an engaging gameplay experience.
+ Graphical Interface: A simple and clean GUI for an engaging gameplay experience.
 
-   Player Turns: Smooth alternation between players 'x' and 'o'.
+ Player Turns: Smooth alternation between players 'x' and 'o'.
 
    Win Detection: Automatically checks for all possible winning conditions (horizontal, vertical, and diagonal).
 
