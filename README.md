@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Game (XO)
+# ***Tic-Tac-Toe Game*** (XO)
 
 A classic Tic-Tac-Toe (Noughts and Crosses) game developed using Python and the Tkinter library for the graphical user interface (GUI).
 
@@ -15,37 +15,42 @@ A classic Tic-Tac-Toe (Noughts and Crosses) game developed using Python and the 
    Random Start: A random player is selected to start each new game.
 
    Restart Button: Easily start a fresh game at any time.
+   
+<img width="616" height="729" alt="image" src="https://github.com/user-attachments/assets/a4fda063-7664-4869-930b-562dc875c5e5" /> <img width="584" height="700" alt="image" src="https://github.com/user-attachments/assets/3e08a02b-4701-4657-aa26-ff645deebe3b" />
 
-🛠️ Prerequisites
 
-    Python: Version 3.x or higher.
 
-    Tkinter: The standard Python GUI library (usually included with a default Python installation).
+# 🛠️ Prerequisites
 
-🚀 How to Run
+   Python: Version 3.x or higher.
 
-    Save the Code: Save the provided Python code into a single file (e.g., tictactoe.py).
+   Tkinter: The standard Python GUI library (usually included with a default Python installation).
 
-    Execute: Open your terminal or command prompt, navigate to the directory where you saved the file, and run the following command:
+# 🚀 How to Run
+
+   Save the Code: Save the provided Python code into a single file (e.g., tictactoe.py).
+
+   Execute: Open your terminal or command prompt, navigate to the directory where you saved the file, and run the following command:
+   
     Bash
 
     python tictactoe.py
 
-    Play: The game window will open. Click on the squares to make your moves.
+   Play: The game window will open. Click on the squares to make your moves.
 
-🕹️ Gameplay Instructions
+#🕹️ Gameplay Instructions
 
-    Starting: The game randomly chooses either 'x' or 'o' to start first.
+   Starting: The game randomly chooses either 'x' or 'o' to start first.
 
-    Making a Move: Click on any empty square to place your symbol.
+   Making a Move: Click on any empty square to place your symbol.
 
-    Winning: The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins! The winning line of squares will turn green.
+   Winning: The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins! The winning line of squares will turn green.
 
-    Ties: If all nine squares are filled and no player has won, the game is declared a tie. All squares will turn red.
+   Ties: If all nine squares are filled and no player has won, the game is declared a tie. All squares will turn red.
 
-    New Game: Click the "restart" button to clear the board and begin a new round.
+   New Game: Click the "restart" button to clear the board and begin a new round.
 
-⚙️ Key Code Functions (Overview)
+# ⚙️ Key Code Functions (Overview)
 
 Function	Description
 next_turn(row, col)	Handles a player's move, places the symbol, and checks the game state.
